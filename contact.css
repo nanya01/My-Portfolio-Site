@@ -21,3 +21,20 @@ input[type="submit"]{
     cursor: auto;
     background-color: green;
 }
+@media (max-width: 768px){
+    fieldset{
+        margin: auto;
+        margin-top: 100px;
+         width:300px;
+         height: 500px;
+         background-color: #A6A2A2;
+     }
+    legend{
+        font-weight: bolder;
+         text-align: center;
+         text-transform: uppercase; 
+         font-family: 'Abril Fatface', cursive;
+     }        
+ }
+ 
+ 
