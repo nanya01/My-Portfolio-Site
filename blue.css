@@ -56,7 +56,7 @@ nav ul.links{
 nav:hover ul{
     position: absolute;
     display: block;
-  
+    line-height: 25px; 
 }
 
 nav:hover ul li{
@@ -98,8 +98,30 @@ li{
 }
 
 @media (max-width: 768px){
-   #brand{
-        margin-right: 3.125rem; 
-   }
-}
-
+    #brand{
+         margin-right: 2.5rem; 
+    }
+    .fab{
+     width: 60px;
+ }
+     nav:hover ul{
+        position: relative;       
+        animation-name: myanimation;    
+        animation-duration: 1s;   
+        animation-fill-mode: forwards;
+        line-height: 80px;
+       background-color: darkgray;
+        z-index:3;
+     }
+     @keyframes myanimation {
+         0%{width:200px; }
+         50%{width:300px; }
+         100%{width:400px; }
+     }
+     .content{
+         position: relative;
+         z-index:-1;
+     }
+ }
+ 
+ 
