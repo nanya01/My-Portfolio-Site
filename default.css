@@ -106,18 +106,18 @@ li{
     width: 60px;
 }
     nav:hover ul{
-       position: relative;
+       position: relative;       
        animation-name: myanimation;    
        animation-duration: 1s;   
        animation-fill-mode: forwards;
-       line-height: 50px;
+       line-height: 80px;
       background-color: darkgray;
        z-index:3;
     }
     @keyframes myanimation {
-        0%{width:100px; }
-        50%{width:200px; }
-        100%{width:300px; }
+        0%{width:200px; }
+        50%{width:300px; }
+        100%{width:400px; }
     }
     .content{
         position: relative;
